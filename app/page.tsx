@@ -70,7 +70,7 @@ export default function HomePage() {
             <div className="flex flex-col gap-2">
               <Label htmlFor="gamePin">Game PIN</Label>
               <Input
-                id="gamePin"
+                suppressHydrationWarning id="gamePin"
                 type="text"
                 placeholder="Enter 6-digit PIN"
                 value={gamePin}
@@ -83,7 +83,7 @@ export default function HomePage() {
             <div className="flex flex-col gap-2">
               <Label htmlFor="name">Your Name</Label>
               <Input
-                id="name"
+                suppressHydrationWarning id="name"
                 type="text"
                 placeholder="Enter your name"
                 value={name}
